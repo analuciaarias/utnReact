@@ -1,10 +1,11 @@
 const Header= (props) =>{
     return(
+        <header>
         <div>
-        <p>hola soy el header</p>
-        <p>kbwquyfuywfbnfqoincioamoaxokdoamcknckasnvkjsnvsnvnnnnnkslkasclksclnslknclasnclsanclasncklsmcalwureugbvlaksdbvauewablvxmvweifasc
-        </p>
+        <h1>ejemplos en REACT</h1>
+        
         </div>
+        </header>
     )
 }
 export default Header;
