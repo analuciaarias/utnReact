@@ -1,4 +1,4 @@
-import {Ejemplo1Props, Ejemplo2Props, Ejemplo3Props, Ejemplo4Props} from "../componente/props/Props";
+import {Ejemplo1Props, Ejemplo2Props, Ejemplo3Props, Ejemplo4Props, Ejemplo5Props} from "../componente/props/Props";
 
 const nombre2= 'Felicitas';
 const lista = ['manzana','banana','pera','frutillas'];
@@ -16,6 +16,8 @@ const EjemploProp01= props =>{
             <hr />
             <Ejemplo3Props titulo='La noticia' subtitulo='subtitulo de la noticia' cuerpo='loremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm' />
             <Ejemplo4Props cambiarValor={mostrarValor} />
+            <hr />
+            <Ejemplo5Props eventoClick={mostrarValor}/>
         </div>
     )
 }

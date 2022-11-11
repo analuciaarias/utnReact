@@ -8,6 +8,7 @@ import Footer from './componente/layout/Footer';
 
 import HomePage from './pages/HomePage';
 import EjemploProp01 from './pages/Ejemplo1';
+import Ejemplo2 from './pages/Ejemplo2';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Routes>
      <Route path='/' element={<HomePage/>}></Route>
      <Route path='/ejemplo1' element={<EjemploProp01/>}></Route>
+     <Route path='/ejemplo2' element={<Ejemplo2 />}></Route>
      </Routes>
      </BrowserRouter>
      <Footer></Footer>

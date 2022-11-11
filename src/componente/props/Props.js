@@ -27,9 +27,22 @@ const Ejemplo4Props = props =>{
         </label>
     )
 }
+const Ejemplo5Props =props =>{
+    const handleClick =e =>{
+        if(props.eventoClick){
+            props.eventoClick('me clickeaste')
+        }
+    } 
+    return(
+        <p>
+            <button onClick={handleClick}>Clickeame!</button>
+        </p>
+    )
+}
 export{
     Ejemplo1Props,
     Ejemplo2Props,
     Ejemplo3Props,
-    Ejemplo4Props
+    Ejemplo4Props,
+    Ejemplo5Props
 }
