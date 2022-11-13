@@ -19,8 +19,8 @@ function Ejemplo2Estado (props){
                 <h3>{`contador: ${counter}`}</h3>
             </div>
             <div className="buttonGroup">
-            <button className="sucess" onClick={}> verde aca codigo dinamico</button>
-            <button className="error">rojo aca codigo dinamico</button>
+            <button className="sucess" onClick={() => setCounter(counter+1)}> +</button>
+            <button className="error" onClick={() => setCounter(counter-1)}>-</button>
             </div>
 
         </div>
