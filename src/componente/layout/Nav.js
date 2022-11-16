@@ -20,6 +20,9 @@ const Nav= (props) =>{
                 <li>
                     <Link to="/ejemplo4">Json</Link>
                 </li>
+                <li>
+                    <Link to="/ejemplo5">Ejemplo 5</Link>
+                </li>
 
             </ul>
         </nav>
